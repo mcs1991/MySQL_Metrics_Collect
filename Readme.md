@@ -2,16 +2,16 @@
 
 ##文档说明
 
-	1.本文档介绍一键收集MySQL诊断信息脚本工具collect_mysql_info的配置使用说明
+	1.本文档介绍一键收集MySQL诊断信息脚本工具mysql_metrics_collect的配置使用说明
 	2.本工具支持MySQL5.5，5.7版本的信息收集。
 	3.由于部分信息借助PT工具收集，所以需要Perl环境
 
 ##配置说明
 
     解压工具包：
-    tar -zxvf collect_mysql_info.tar.gz
+    tar -zxvf mysql_metrics_collect.zip
     配置参数:
-    vi collect_mysql_info.sh
+    vi mysql_metrics_collect.sh
     admin_user:mysql super 账户
     admin_password:mysql 密码
     mysql_port:连接MySQL的端口
@@ -22,7 +22,7 @@
 ##运行脚本
 
     由于部分信息收集借助PT脚本，所以需要Perl环境
-    sh collect_mysql_info.sh
+    sh mysql_metrics_collect.sh
 
 ##脚本输出
 
